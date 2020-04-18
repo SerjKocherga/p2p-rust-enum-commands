@@ -1,6 +1,8 @@
-/// Crate for containing common commands for client and daemon
-/// Example:
-/// let command = CommandType::Status;
+///This library contains common command and response types for client and daemon for their communication.
+///Depending on which command the client enters into the console, its type will be determined, the command will be serialized and then sent to the daemon.
+///The response from the daemon comes in a serialized form and deserialize, it is reduced to the type of response to which the request was sent from the client.
+///Next, information is output to the client in the console in accordance with the type of response.
+
 use serde::{Serialize, Deserialize};
 use std::net::IpAddr;
 use std::collections::HashMap;
