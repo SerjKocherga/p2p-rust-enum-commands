@@ -32,7 +32,7 @@ checksum = "8197ad28c61566fb74b2167563865906215fbc32c61fd866bd54e7c195eb84ed"
 
 [[package]]
 name = "p2p-file-sharing-enum-commands"
-version = "0.2.2"
+version = "0.2.3"
 dependencies = [
  "ipconfig",
  "machine-ip",
